@@ -4,7 +4,7 @@ import PyPDF2
 from groq import Groq
 
 # ─── API Anahtarı ─────────────────────────────────────────────────────────────
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # ─── Sayfa Yapılandırması ────────────────────────────────────────────────────
 st.set_page_config(
